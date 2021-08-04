@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.16.0",
     "@types/stripe": "^8.0.417",
     "axios": "^0.21.1",
     "faunadb": "^4.3.0",
