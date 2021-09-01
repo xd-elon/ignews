@@ -14,7 +14,7 @@ export function SubscribeButton({ priceId }: SubscriptionButtonProps) {
     async function handleSubscribe() {
         if(!session) {
             signIn('github')
-            return;
+          return;
         }
 
         try {
@@ -36,7 +36,7 @@ export function SubscribeButton({ priceId }: SubscriptionButtonProps) {
         <button
             type="button"
             className={styles.subscribeButton}
-            onClick={handleSubscribe}
+            onClick={ () => handleSubscribe()}
         >
             Subscribe now
         </button>
